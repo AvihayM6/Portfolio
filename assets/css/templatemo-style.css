@@ -440,7 +440,7 @@ button:hover {
 }
 
 .service-item:hover .first-service-icon {
-    background-image: url(../images/first-main-icon.jpg);
+    background-image: url(../images/first-main-icon.png);
 }
 
 .service-item .second-service-icon {
