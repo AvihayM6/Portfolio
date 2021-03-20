@@ -24,7 +24,7 @@
     </head>
 
     <body>
-        <?php echo $alert; ?>
+ 
 
             <div id="page-wraper">
                 <!-- Sidebar Menu -->
@@ -314,9 +314,7 @@
                                             </div>
                                             <div class="col-md-12">
                                                 <fieldset>
-                                                    <button type="submit" name="submit" id="form-submit" class="button">
-                          Send Message
-                        </button>
+                                                    <button type="submit" name="submit" id="form-submit" class="button">Send Message</button>
                                                 </fieldset>
                                             </div>
                                         </div>
@@ -386,6 +384,7 @@
                     checkSection();
                 });
             </script>
+        <?php echo $alert; ?>
     </body>
 
     </html>
