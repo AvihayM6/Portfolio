@@ -1,3 +1,6 @@
+<?php include 'sendmail.php'; ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,6 +24,8 @@
 </head>
 
 <body>
+
+    <?php echo $alert; ?>
     <div id="page-wraper">
         <!-- Sidebar Menu -->
         <div class="responsive-nav">
@@ -280,15 +285,12 @@
                 <div class="section-heading">
                     <h2>Contact Me</h2>
                     <div class="line-dec"></div>
-                    <span>Fusce eget nibh nec justo interdum condimentum. Morbi justo ex,
-              efficitur at ante ac, tincidunt maximus ligula. Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit.</span
-            >
+                    <span>There is a form & server-side that i created by myself! So feel free to keep in tuch😉</span>
           </div>
           <div class="row">
-            <div class="right-content">
+            <div class="right-content ">
               <div class="container">
-                <form id="contact" action="https://script.google.com/macros/s/AKfycbxIcKQtAxZb8HNrhZ2OGx20UIqV6-QB1C0DA-axFg/exec" method="post">
+                <form id="contact" action="" method="post">
                   <div class="row">
                     <div class="col-md-6">
                       <fieldset>
@@ -306,7 +308,7 @@
                       <fieldset>
                         <input
                           name="email"
-                          type="text"
+                          type="email"
                           class="form-control"
                           id="email"
                           placeholder="Your email..."
@@ -340,9 +342,9 @@
                     </div>
                     <div class="col-md-12">
                       <fieldset>
-                        <button type="submit" id="form-submit" class="button">
+                        <button type="submit" name="submit" id="form-submit" class="button" >
                           Send Message
-                        </button>
+                        </button> 
                       </fieldset>
                     </div>
                   </div>
